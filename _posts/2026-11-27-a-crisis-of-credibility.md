@@ -25,6 +25,8 @@ Why the sudden crisis of conscience? What property of agentic systems has made t
 
 AI is one more of those machines. It's being deployed into platforms real people rely on whether we take part or not, so refusing doesn't make our hands any cleaner. It just leaves those platforms without us. Our obligations outweigh our objections and, as ever, if we don't get on board we're going to be routed around. We simply have to get over it and get to work.
 
+* * *
+
 While we're sitting on the sidelines being smug about whether an LLM can count the 'r's in 'strawberry', the gap between the work we deliver and the work that's needed from us has grown.
 
 Much of how we decide what matters rests on an estimate of how likely something is to be attacked, and most of those estimates have priced in how expensive an attacker's time was and how rare certain tiers of capability were. Both assumptions are failing. Agentic offensive frameworks are already putting runs on the board. These tools haven't yet removed the need for skill against a well-defended target, but most of your customers aren't well-defended. The mantra of Grok shills on LinkedIn is unfortunately not wrong: this is the least capable these frameworks are ever going to be.
@@ -32,6 +34,10 @@ Much of how we decide what matters rests on an estimate of how likely something 
 Then there's the sheer volume. You've seen the graphs. Crime stonks are going up. Sure, confirmed exploitation is climbing much more slowly than disclosure, but it is climbing, and nobody can tell you in advance which few of this week's wave of CVEs will be used. 
 
 And it isn't only attackers who have sped up. The businesses we work for are shipping faster with these same tools, which means more designs, more code and more change landing on the same number of security people. Processes and postures built for the tempo of yesteryear aren't going to scale by people working harder.
+
+* * *
+
+<aside class="pull" aria-hidden="true">We seem to have conveniently forgotten that the market never asked for pentesting, either.</aside>
 
 I'm going to pick on pentesting, because that's where my background is, and I'm downrange of any shot I take at it. 
 
@@ -52,15 +58,21 @@ A cynical observer might note that much of this work is sold by the day, and too
 
 Buyers who've noticed and gone looking elsewhere find a market full of AI testing tools built by people who discovered pentesting the same week they discovered AI, and plenty of them are rubbish. That's what happens when the people who know what good looks like refuse to build it.
 
+* * *
+
 It's not just pentesting. Defence has always been an economic argument. We spend what the risk justifies. But the collapse in what an attack costs changes the argument. If a shift on that scale has snuck up on you, at what point does the advice you're giving amount to malpractice? It's a question we'd be forced to answer if there were any meaningful professional standards we had to hold ourselves to.
 
 We don't have the luxury of time to grapple with this. Our customers and our employers are already defending against a reality we haven't equipped them for.
 
 When the attacker's capability compounds, there are only two ways to get ahead of it: start earlier, or improve faster. Starting earlier is off the table, so we have to improve faster. Most of the gains arrive after a stretch of unglamorous investment. A team that cautiously trials a chatbot for a quarter gets the frustrating part and stops before the payoff. A team that puts these tools into its daily work, and changes how that work gets done, reaches the payoff.
 
+* * *
+
 The galling thing is that when AI boosters first started their spiel, I set out to prove them wrong. I made a good-faith effort to actually put this technology to work, expecting to collect enough information to more credibly shut down vendors. I absolutely love to shut down vendors.
 
 Imagine my chagrin when it performed so well that I had to rebuild basically every part of my day-to-day work around it. How fucking embarrassing. Triaging incidents, reviewing architecture, investigating potential attacks, auditing code: the robot had the audacity to excel at all of it while I was still looking for a reason to hate it. As a further indignity, it gave me back hours in my week to use on projects I had written off as impossible to get to.
+
+<aside class="pull" aria-hidden="true">It turns out they can be right and still be lying.</aside>
 
 I maintain that the ability of the technology to deliver is independent of the promises made by many of its proponents. It turns out they can be right and still be lying. However, letting their grift poison our read on reality is a hell of an own goal.
 
