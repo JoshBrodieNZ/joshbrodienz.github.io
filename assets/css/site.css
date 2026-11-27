@@ -121,6 +121,13 @@ h1, h2, h3 {
   text-wrap: balance;
 }
 
+.prose .beat {
+  font: 600 1.05em/1.5 var(--sans);
+  padding-left: 1rem;
+  border-left: 3px solid var(--accent);
+  margin: 1.6em 0;
+}
+
 .prose .kicker {
   font: 800 clamp(1.9rem, 5.5vw, 2.8rem)/1.08 var(--sans);
   letter-spacing: -.025em;
