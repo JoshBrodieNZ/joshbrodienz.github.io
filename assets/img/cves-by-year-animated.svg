@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" role="img" aria-labelledby="t d">
+<title id="t">CVEs published per year</title>
+<desc id="d">CVEs published each year: 25,081 in 2022, 28,902 in 2023, 40,009 in 2024, 48,185 in 2025, and 100,222 in 2026 as of 13 November.</desc>
+<style>.ln{fill:none;stroke:#c7341a;stroke-width:4;stroke-linejoin:round;stroke-linecap:round}.ar{fill:#c7341a}.ar2{fill:#c7341a;opacity:.09}.pt{fill:#ffffff;stroke:#c7341a;stroke-width:3}.v{font:600 14px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#1a1614}.l{font:13px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#5f5752}.p{font:800 22px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#c7341a}.s{font:900 italic 34px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#c7341a;letter-spacing:.04em}.a{stroke:#ebe5e1}@media (prefers-color-scheme:dark){.ln{stroke:#ff6a45}.ar,.ar2{fill:#ff6a45}.pt{fill:#141110;stroke:#ff6a45}.v{fill:#f2ebe7}.l{fill:#b3a8a2}.p,.s{fill:#ff6a45}.a{stroke:#2d2624}}.ln{stroke-dasharray:1;animation:draw 7s ease-out infinite}.ar2{animation:shade 7s ease-out infinite}.ar,.s{transform-box:fill-box;transform-origin:center;animation:pop 7s ease-out infinite}@keyframes draw{0%{stroke-dashoffset:1;opacity:1}30%{stroke-dashoffset:0;opacity:1}92%{stroke-dashoffset:0;opacity:1}100%{stroke-dashoffset:0;opacity:0}}@keyframes shade{0%,30%{opacity:0}40%,92%{opacity:.09}100%{opacity:0}}@keyframes pop{0%,28%{opacity:0;transform:scale(.5)}34%{opacity:1;transform:scale(1.18)}39%,92%{opacity:1;transform:scale(1)}100%{opacity:0;transform:scale(1)}}@media (prefers-reduced-motion:reduce){.ln,.ar2,.ar,.s{animation:none}}</style>
+<line class="a" x1="16" y1="340" x2="660" y2="340" stroke-width="1"/>
+<path class="ar2" d="M30.0,276.6 L182.5,267.0 L335.0,238.9 L487.5,218.2 L640.0,86.7 L640.0,340 L30.0,340 Z"/>
+<path class="ln" pathLength="1" d="M30.0,276.6 L182.5,267.0 L335.0,238.9 L487.5,218.2 L626.4,98.5"/>
+<path class="ar" d="M640.0,86.7 L633.3,109.6 L616.4,89.9 Z"/>
+<circle class="pt" cx="30.0" cy="276.6" r="5"/>
+<text class="v" x="30.0" y="262.6" text-anchor="middle">25,081</text>
+<text class="l" x="30.0" y="366" text-anchor="middle">2022</text>
+<circle class="pt" cx="182.5" cy="267.0" r="5"/>
+<text class="v" x="182.5" y="253.0" text-anchor="middle">28,902</text>
+<text class="l" x="182.5" y="366" text-anchor="middle">2023</text>
+<circle class="pt" cx="335.0" cy="238.9" r="5"/>
+<text class="v" x="335.0" y="224.9" text-anchor="middle">40,009</text>
+<text class="l" x="335.0" y="366" text-anchor="middle">2024</text>
+<circle class="pt" cx="487.5" cy="218.2" r="5"/>
+<text class="v" x="499.5" y="240.2" text-anchor="start">48,185</text>
+<text class="l" x="487.5" y="366" text-anchor="middle">2025</text>
+<text class="l" x="648.0" y="366" text-anchor="end">2026 so far</text>
+<text class="p" x="640.0" y="66.7" text-anchor="end">100,222</text>
+<text class="s" x="411.2" y="78.0" text-anchor="middle">STONKS</text>
+</svg>
