@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Crisis of Credibility
-description: Our industry’s failure to credibly adopt AI has handed attackers an advantage. I’m a little bit cross about it.
+description: An expanded version of my CHCon 2026 rant on AI, credibility, and the security industry's opt-out.
 ---
 
 At CHCon 2026, I was invited on stage to give a brief rant about whatever was on my mind. I hadn't prepared anything, but I can't turn down an offer to be the centre of attention, so I took to the stage to share my reckons about everyone's favourite topic: AI. Based on the reception, it seems like I struck a chord. Or maybe a nerve? Either way, folk wanted a more fleshed-out version of these reckons to be made available, so that's what this is.
