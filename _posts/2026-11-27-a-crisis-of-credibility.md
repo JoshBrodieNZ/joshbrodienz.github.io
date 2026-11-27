@@ -31,7 +31,7 @@ While we're sitting on the sidelines being smug about whether an LLM can count t
 
 Much of how we decide what matters rests on an estimate of how likely something is to be attacked, and most of those estimates have priced in how expensive an attacker's time was and how rare certain tiers of capability were. Both assumptions are failing. Agentic offensive frameworks are already putting runs on the board. These tools haven't yet removed the need for skill against a well-defended target, but most of your customers aren't well-defended. The mantra of Grok shills on LinkedIn is unfortunately not wrong: this is the least capable these frameworks are ever going to be.
 
-Then there's the sheer volume. You've seen the graphs. Crime stonks are going up. Sure, confirmed exploitation is climbing much more slowly than disclosure, but it is climbing, and nobody can tell you in advance which few of this week's wave of CVEs will be used. 
+Then there's the sheer volume. You've seen the graphs. Crime stonks are going up. Some of those graphs deserve the side-eye, and the more realistic picture is bad enough without them: only a percent or two of published CVEs are ever seen exploited, and there's no evidence yet that the share is climbing, but the number of CVEs is. The dangerous few get buried under more noise every year, and nobody can tell you in advance which few of this week's wave will be used.
 
 And it isn't only attackers who have sped up. The businesses we work for are shipping faster with these same tools, which means more designs, more code and more change landing on the same number of security people. Processes and postures built for the tempo of yesteryear aren't going to scale by people working harder.
 
