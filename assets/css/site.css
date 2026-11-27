@@ -1,0 +1,152 @@
+/* VOICE  a practitioner's rant: dry, blunt, readable for ten minutes straight
+   IDEA   a well-set essay page; the type does the work, one vermilion thread runs through it
+   PICTURE none: the title and the argument are the picture
+   COLOUR white or near-black ground, warm black ink, vermilion for links, rules and the punchline
+   TYPE   system sans at heavy weight for headings, a system serif (Charter family) for reading
+   LAYOUT one reading column of about 65 characters; same column on a phone, smaller type */
+
+:root {
+  color-scheme: light dark;
+  --bg: light-dark(#ffffff, #141110);
+  --ink: light-dark(#1a1614, #f2ebe7);
+  --soft: light-dark(#5f5752, #b3a8a2);
+  --rule: light-dark(#ebe5e1, #2d2624);
+  --accent: light-dark(#c7341a, #ff6a45);
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --serif: Charter, "Bitstream Charter", "Sitka Text", Cambria, Georgia, serif;
+  --measure: 42rem;
+}
+:root[data-theme=light] { color-scheme: light; }
+:root[data-theme=dark] { color-scheme: dark; }
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 1.125rem/1.62 var(--serif);
+  border-top: 6px solid var(--accent);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+@media (min-width: 720px) {
+  body { font-size: 1.25rem; }
+}
+
+main, .mast, .foot {
+  max-width: calc(var(--measure) + 2 * max(5vw, 20px));
+  margin-inline: auto;
+  padding-inline: max(5vw, 20px);
+}
+
+::selection { background: color-mix(in srgb, var(--accent) 28%, transparent); }
+
+a {
+  color: inherit;
+  text-decoration-line: underline;
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: .08em;
+  text-underline-offset: .18em;
+}
+a:hover { color: var(--accent); text-decoration-thickness: .12em; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+
+/* Masthead and footer */
+.mast {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  padding-block: 1.25rem;
+  font: 600 .95rem/1.2 var(--sans);
+}
+.mast a { text-decoration: none; }
+.mast .feed { color: var(--soft); font-weight: 500; }
+.mast a:hover { color: var(--accent); }
+
+.foot {
+  margin-top: 4rem;
+  padding-block: 1.5rem 2.5rem;
+  border-top: 1px solid var(--rule);
+  font: .9rem/1.5 var(--sans);
+  color: var(--soft);
+}
+.foot p { margin: 0; }
+
+/* Headings */
+h1, h2, h3 {
+  font-family: var(--sans);
+  font-weight: 800;
+  letter-spacing: -.025em;
+  line-height: 1.02;
+  text-wrap: balance;
+}
+
+/* Post header */
+.post-head { margin: clamp(2.5rem, 9vw, 6rem) 0 clamp(2rem, 5vw, 3.5rem); }
+.post-head h1 { font-size: clamp(2.6rem, 8.5vw, 4.6rem); margin: 0 0 .9rem; }
+.dek {
+  margin: 0 0 1.25rem;
+  font: 400 clamp(1.15rem, 2.4vw, 1.4rem)/1.4 var(--sans);
+  color: var(--soft);
+  text-wrap: pretty;
+}
+.meta {
+  margin: 0;
+  font: .9rem/1.4 var(--sans);
+  color: var(--soft);
+}
+.meta span { margin-inline: .35em; opacity: .6; }
+
+/* Prose */
+.prose p { margin: 0 0 1.15em; text-wrap: pretty; hanging-punctuation: first; }
+.prose strong { font-weight: 700; }
+
+.prose .preface {
+  font: 1rem/1.6 var(--sans);
+  color: var(--soft);
+  padding-left: 1rem;
+  border-left: 3px solid var(--accent);
+  margin-bottom: 2.25em;
+}
+
+.prose .ask {
+  font: 700 clamp(1.3rem, 3vw, 1.6rem)/1.3 var(--sans);
+  letter-spacing: -.01em;
+  margin: 1.8em 0;
+  text-wrap: balance;
+}
+
+.prose .kicker {
+  font: 800 clamp(1.9rem, 5.5vw, 2.8rem)/1.08 var(--sans);
+  letter-spacing: -.025em;
+  margin: 1.6em 0 .7em;
+  text-wrap: balance;
+}
+.prose .kicker strong { color: var(--accent); font-weight: 800; }
+
+.prose .coda { color: var(--soft); }
+
+.back {
+  margin: 3rem 0 0;
+  font: 600 .95rem/1.4 var(--sans);
+}
+
+/* Home page */
+.intro { margin: clamp(2.5rem, 9vw, 6rem) 0 2.5rem; }
+.intro h1 { font-size: clamp(2.4rem, 7vw, 3.8rem); margin: 0 0 .75rem; }
+.posts { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--rule); }
+.posts li { padding: 1.4rem 0; border-bottom: 1px solid var(--rule); }
+.posts a { font: 800 1.5rem/1.15 var(--sans); letter-spacing: -.02em; text-decoration: none; }
+.posts time { display: block; margin-top: .35rem; font: .9rem var(--sans); color: var(--soft); }
+.posts p { margin: .5rem 0 0; color: var(--soft); font-size: 1rem; }
+
+@media print {
+  body { border-top: 0; font-size: 11pt; }
+  .mast, .foot, .back { display: none; }
+  a { text-decoration: none; }
+}

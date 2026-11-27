@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-NZ">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self' data:; font-src 'self'; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="color-scheme" content="light dark">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  {% seo %}
+  {% feed_meta %}
+</head>
+<body>
+  <header class="mast">
+    <a class="home" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <a class="feed" href="{{ '/feed.xml' | relative_url }}">Feed</a>
+  </header>
+  <main>
+{{ content }}
+  </main>
+  <footer class="foot">
+    <p>{{ site.author }}, Aotearoa New Zealand. No trackers, no scripts.</p>
+  </footer>
+</body>
+</html>

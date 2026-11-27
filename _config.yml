@@ -1,0 +1,15 @@
+title: Josh Brodie
+description: Writing on security, AI and the gap between how systems are meant to behave and how they actually do.
+author: Josh Brodie
+lang: en_NZ
+permalink: /:year/:title/
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+exclude:
+  - README.md
