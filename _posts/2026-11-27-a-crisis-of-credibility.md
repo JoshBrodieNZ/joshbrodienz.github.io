@@ -15,13 +15,27 @@ We can easily dismiss the tech as fundamentally broken: a non-deterministic blac
 
 I'm not going to argue against any of that. It's all close enough to the truth that nitpicking the nuance is a loser's game. We'll leave "well actually, per-inference energy cost is blah blah blah" to AI engagement farmers. Like every disruptive technology before it, society will inevitably pick this up and wield it to harm the exact same groups of people we always do. I just don't accept that this gets us out of doing the work. If anything, it makes the work more essential.
 
+* * *
+
 I'm not asking you to love AI. But if you aren't actively mastering it, you are forfeiting your credibility as a practitioner. Have we forgotten what hackers are for? We claimed ownership of understanding how systems really work under the hood. Builders and users can take advantage of the comfort of higher-level abstractions, but we know that the delta between a system's assumed behaviour and its true behaviour is exactly where the harms hide. We committed to living in that gap, exposing those failures, and mitigating them. We've actually been pretty well compensated for it.
 
-The models don't always tell the truth. So what? The entire history of this discipline is one of building reliable systems out of profoundly unreliable parts. Our infrastructure has been failing constantly since the 1940s and we've been engineering around it ever since. Packets drop, so we retransmit. Bits flip, so we error-correct. Flight computers fail, so we run three variants and take the vote. The same techniques work on models: run several, make them critique each other, and take the consensus over any single answer. For the errors that persist, we do what we've always done with untrusted components: make sure that being wrong can't do intolerable damage. It's absurd to throw our hands up in the air and treat LLMs as a uniquely unsolvable problem instead of the next layer of chaos we need to constrain.
+The models don't always tell the truth. So what? The entire history of this discipline is one of building reliable systems out of profoundly unreliable parts. Our infrastructure has been failing constantly since the 1940s and we've been engineering around it ever since.
+
+Packets drop, so we retransmit.<br>
+Bits flip, so we error-correct.<br>
+Flight computers fail, so we run three variants and take the vote.
+{: .beat}
+
+The same techniques work on models: run several, make them critique each other, and take the consensus over any single answer. For the errors that persist, we do what we've always done with untrusted components: make sure that being wrong can't do intolerable damage. It's absurd to throw our hands up in the air and treat LLMs as a uniquely unsolvable problem instead of the next layer of chaos we need to constrain.
+
+* * *
 
 Nobody in this field has clean hands by the standard applied to AI. The computer runs on conflict minerals, the platforms people spend their days on are paid for by surveillance advertising and many of our most essential customers have their own skeletons in their closets. We secured all of it anyway, because people depended on it.
 
-Why the sudden crisis of conscience? What property of agentic systems has made their adoption a bridge too far? Our job is to take powerful machines that society depends on, but which we must remain deeply suspicious of at all times, and ensure those machines operate close enough to the expectations of their users. We use those machines to achieve that aim, because there aren't any other tools at our disposal that let us deliver on our commitments.
+Why the sudden crisis of conscience?
+{: .ask}
+
+What property of agentic systems has made their adoption a bridge too far? Our job is to take powerful machines that society depends on, but which we must remain deeply suspicious of at all times, and ensure those machines operate close enough to the expectations of their users. We use those machines to achieve that aim, because there aren't any other tools at our disposal that let us deliver on our commitments.
 
 AI is one more of those machines. It's being deployed into platforms real people rely on whether we take part or not, so refusing doesn't make our hands any cleaner. It just leaves those platforms without us. Our obligations outweigh our objections and, as ever, if we don't get on board we're going to be routed around. We simply have to get over it and get to work.
 
