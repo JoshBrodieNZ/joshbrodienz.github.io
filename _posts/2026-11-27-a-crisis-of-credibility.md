@@ -47,6 +47,16 @@ Much of how we decide what matters rests on an estimate of how likely something 
 
 Then there's the sheer volume. You've seen the graphs. Crime stonks are going up. Some of those graphs deserve the side-eye, and the more realistic picture is bad enough without them: only a percent or two of published CVEs are ever seen exploited, and there's no evidence yet that the share is climbing, but the number of CVEs is. The dangerous few get buried under more noise every year, and nobody can tell you in advance which few of this week's wave will be used.
 
+<figure class="fig">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce) and (max-width: 520px)" srcset="/assets/img/cves-by-year-narrow.svg">
+    <source media="(prefers-reduced-motion: reduce)" srcset="/assets/img/cves-by-year.svg">
+    <source media="(max-width: 520px)" srcset="/assets/img/cves-by-year-narrow-animated.svg">
+    <img src="/assets/img/cves-by-year-animated.svg" width="680" height="380" alt="CVEs published each year: 25,081 in 2022, 28,902 in 2023, 40,009 in 2024, 48,185 in 2025, and 100,222 in 2026 as of 13 November.">
+  </picture>
+  <figcaption>CVE records published per year. These are disclosures, not attacks. 2026 is to 13 November. Source: VulnCheck, via The Register.</figcaption>
+</figure>
+
 And it isn't only attackers who have sped up. The businesses we work for are shipping faster with these same tools, which means more designs, more code and more change landing on the same number of security people. Processes and postures built for the tempo of yesteryear aren't going to scale by people working harder.
 
 * * *
