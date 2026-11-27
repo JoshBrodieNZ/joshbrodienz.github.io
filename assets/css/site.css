@@ -130,6 +130,33 @@ h1, h2, h3 {
 .prose .kicker strong { color: var(--accent); font-weight: 800; }
 
 .prose .coda { color: var(--soft); }
+/* Section breaks */
+.prose hr {
+  border: 0;
+  width: 4rem;
+  height: 3px;
+  margin: 2.8em 0;
+  background: var(--accent);
+}
+
+/* Pull quotes: repeat a nearby line, so hidden from screen readers in the markup */
+.pull {
+  margin: 1.9em 0;
+  padding: .7em 0;
+  border-block: 1px solid var(--rule);
+  font: italic 400 clamp(1.45rem, 3.6vw, 1.95rem)/1.28 var(--serif);
+  color: var(--accent);
+  text-wrap: balance;
+}
+
+/* Figures */
+.fig { margin: 2.2em 0; }
+.fig img { display: block; width: 100%; height: auto; }
+.fig figcaption {
+  margin-top: .7rem;
+  font: .9rem/1.5 var(--sans);
+  color: var(--soft);
+}
 
 .back {
   margin: 3rem 0 0;
