@@ -141,12 +141,10 @@ h1, h2, h3 {
 
 /* Pull quotes: repeat a nearby line, so hidden from screen readers in the markup */
 .pull {
-  margin: 1.9em 0;
-  padding: .7em 0;
-  border-block: 1px solid var(--rule);
-  font: italic 400 clamp(1.45rem, 3.6vw, 1.95rem)/1.28 var(--serif);
+  margin: 1.4em 0 1.5em;
+  font: italic 400 clamp(1.4rem, 3.2vw, 1.75rem)/1.32 var(--serif);
   color: var(--accent);
-  text-wrap: balance;
+  text-wrap: pretty;
 }
 
 /* Figures */
