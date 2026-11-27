@@ -70,9 +70,9 @@ When the attacker's capability compounds, there are only two ways to get ahead o
 
 The galling thing is that when AI boosters first started their spiel, I set out to prove them wrong. I made a good-faith effort to actually put this technology to work, expecting to collect enough information to more credibly shut down vendors. I absolutely love to shut down vendors.
 
-Imagine my chagrin when it performed so well that I had to rebuild basically every part of my day-to-day work around it. How fucking embarrassing. Triaging incidents, reviewing architecture, investigating potential attacks, auditing code: the robot had the audacity to excel at all of it while I was still looking for a reason to hate it. As a further indignity, it gave me back hours in my week to use on projects I had written off as impossible to get to.
-
 <aside class="pull" aria-hidden="true">It turns out they can be right and still be lying.</aside>
+
+Imagine my chagrin when it performed so well that I had to rebuild basically every part of my day-to-day work around it. How fucking embarrassing. Triaging incidents, reviewing architecture, investigating potential attacks, auditing code: the robot had the audacity to excel at all of it while I was still looking for a reason to hate it. As a further indignity, it gave me back hours in my week to use on projects I had written off as impossible to get to.
 
 I maintain that the ability of the technology to deliver is independent of the promises made by many of its proponents. It turns out they can be right and still be lying. However, letting their grift poison our read on reality is a hell of an own goal.
 
