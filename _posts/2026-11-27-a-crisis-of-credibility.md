@@ -2,7 +2,13 @@
 layout: post
 title: A Crisis of Credibility
 description: An expanded version of my CHCon 2026 rant on AI, credibility, and the security industry's opt-out.
+image: /assets/img/chcon-2026-rant.jpg
 ---
+
+<figure class="fig">
+  <img src="/assets/img/chcon-2026-rant.jpg" width="1024" height="576" alt="Josh Brodie on stage at CHCon 2026 in a red sequinned ringmaster jacket and a stick-on moustache, holding a microphone. The slide behind him reads: Josh's Rant. The ringmaster has the mic. Clowns, please remain seated. Opinions are his own. No refunds. No heckling (ok, a little heckling).">
+  <figcaption>On stage at CHCon 2026.</figcaption>
+</figure>
 
 At CHCon 2026, I was invited on stage to give a brief rant about whatever was on my mind. I hadn't prepared anything, but I can't turn down an offer to be the centre of attention, so I took to the stage to share my reckons about everyone's favourite topic: AI. Based on the reception, it seems like I struck a chord. Or maybe a nerve? Either way, folk wanted a more fleshed-out version of these reckons to be made available, so that's what this is.
 {: .preface}
